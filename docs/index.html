@@ -24,6 +24,7 @@
     </header>
     <main>
         <button class="btn" id="loginButton">Log In</button>
+        <button class="btn" id="signupButton">Sign Up</button>
     </main>
     <footer>
         
@@ -31,6 +32,9 @@
     <script>
         document.getElementById("loginButton").addEventListener("click", function() {
             window.location.href = "acc/login";
+        });
+        document.getElementById('signupButton').addEventListener('click',function() {
+            window.location.href= 'acc/signup'
         });
     </script>
 </body>
